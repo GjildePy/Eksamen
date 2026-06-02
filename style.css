@@ -1,0 +1,35 @@
+body {
+    font-family: arial, sans-serif;
+    background-color: rgb(244, 244, 244);
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(65, 153, 235);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.tips {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: rgb(65, 153, 235);
+    color: white;
+    padding: 10px;
+}
