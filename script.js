@@ -1,6 +1,6 @@
 function sendRapport(event) {
 
-    const tekst = document.getElementById('problemTekst').value;
+    const tekst = document.getElementById('tekstRapport').value;
 
     fetch ('/rapporter', {
         method: 'POST',
@@ -9,5 +9,7 @@ function sendRapport(event) {
     });
 
     alert("Takk! Rapporten din er mottatt")
+
+    document.getElementById('tekstRapport').value = "";
 
 }
