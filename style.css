@@ -22,14 +22,3 @@ main {
     padding: 20px;
     margin-bottom: 20px;
 }
-
-textarea {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-button {
-    background-color: rgb(65, 153, 235);
-    color: white;
-    padding: 10px;
-}
